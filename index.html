@@ -15,11 +15,14 @@
     }
 
     .scroll-nav a {
-      flex: 0 0 auto;
-      margin-right: 1rem;
-      text-decoration: none;
-      color: #000;
-    }
+    flex: 0 0 auto;
+    margin-right: 1.5rem;
+    text-decoration: none;
+    color: #000;
+    font-size: 1.25rem; /* Increased font size */
+    font-weight: 500;    /* Optional: makes text bolder */
+    padding: 0.5rem 1rem; /* Adds padding around each item */
+  }
     .scroll-nav::-webkit-scrollbar-thumb {
       background-color: #888;
       border-radius: 3px;
@@ -31,12 +34,14 @@
   <div class="bg-info ">
     <nav class="scroll-nav" >
       <a>sophal Sorya</a>
+      <a data-tag="all">All</a>
       <a data-tag="best selling">Best Selling</a>
       <a data-tag="balm">Balm</a>
       <a data-tag="toothpaste">Toothpash</a>
-      <a data-tag="all">All</a>
       <a data-tag="Skincare">Skincare</a>
       <a data-tag="khmer">Khmer Brand</a>
+      <a data-tag="milk">Milk Brand</a>
+      <a data-tag="soap"> Soap</a>
       <a data-tag="coffee">Coffee</a>
       <a data-tag="ABC">ABC</a>
       <a data-tag="coosea">Coosea</a>
